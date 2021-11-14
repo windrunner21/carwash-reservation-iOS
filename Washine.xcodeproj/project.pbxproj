@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA1835402731CD5300698DA1 /* BookingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA18353F2731CD5300698DA1 /* BookingManager.swift */; };
+		CA1835422731E26A00698DA1 /* CarWashLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1835412731E26A00698DA1 /* CarWashLocation.swift */; };
+		CA19FD1027318D2900BA5C6D /* WashListModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA19FD0F27318D2900BA5C6D /* WashListModalView.swift */; };
+		CA19FD1327318E7100BA5C6D /* CarWash.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA19FD1227318E7100BA5C6D /* CarWash.swift */; };
+		CA19FD15273196FE00BA5C6D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA19FD14273196FE00BA5C6D /* ModelData.swift */; };
+		CA19FD1E27319B1800BA5C6D /* CarWashRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA19FD1D27319B1800BA5C6D /* CarWashRowView.swift */; };
+		CA19FD202731A1CE00BA5C6D /* CarWashDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA19FD1F2731A1CE00BA5C6D /* CarWashDetail.swift */; };
+		CA19FD222731A3E300BA5C6D /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA19FD212731A3E300BA5C6D /* CircleImage.swift */; };
+		CA19FD242731A54000BA5C6D /* CarWashMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA19FD232731A54000BA5C6D /* CarWashMapView.swift */; };
+		CA3E91C0271C558F0003AD12 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E91BF271C558F0003AD12 /* DatePickerView.swift */; };
+		CA3E91C2271C55970003AD12 /* TimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E91C1271C55970003AD12 /* TimePickerView.swift */; };
+		CA3E91C4271C58160003AD12 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E91C3271C58160003AD12 /* DateView.swift */; };
+		CA3E91C8271CB2E60003AD12 /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E91C7271CB2E60003AD12 /* TimeView.swift */; };
+		CA3E91CA271CBB880003AD12 /* ContactModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E91C9271CBB880003AD12 /* ContactModalView.swift */; };
+		CA563C46271B742200633F55 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA563C45271B742200633F55 /* MapView.swift */; };
 		CA99E2EC271A34AB00E2BB8D /* WashineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA99E2EB271A34AB00E2BB8D /* WashineApp.swift */; };
 		CA99E2EE271A34AB00E2BB8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA99E2ED271A34AB00E2BB8D /* ContentView.swift */; };
 		CA99E2F0271A34AD00E2BB8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA99E2EF271A34AD00E2BB8D /* Assets.xcassets */; };
@@ -14,6 +29,13 @@
 		CA99E2FD271A34AD00E2BB8D /* WashineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA99E2FC271A34AD00E2BB8D /* WashineTests.swift */; };
 		CA99E307271A34AE00E2BB8D /* WashineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA99E306271A34AE00E2BB8D /* WashineUITests.swift */; };
 		CA99E309271A34AE00E2BB8D /* WashineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA99E308271A34AE00E2BB8D /* WashineUITestsLaunchTests.swift */; };
+		CA99E316271AF65F00E2BB8D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA99E315271AF65F00E2BB8D /* Launch Screen.storyboard */; };
+		CAABC888272DA4DD00D8CE09 /* AuthenticatedEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAABC887272DA4DD00D8CE09 /* AuthenticatedEnum.swift */; };
+		CAABC88A273181B800D8CE09 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAABC889273181B700D8CE09 /* LocationManager.swift */; };
+		CAAFDF992731BCED00A031F8 /* carWashData.json in Resources */ = {isa = PBXBuildFile; fileRef = CAAFDF982731BCED00A031F8 /* carWashData.json */; };
+		CAB07391271B609B0022EAF4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB07390271B609B0022EAF4 /* LoginView.swift */; };
+		CAB07393271B68940022EAF4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB07392271B68940022EAF4 /* MainView.swift */; };
+		CABCBAA0271B6C7500EF3BA2 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABCBA9F271B6C7500EF3BA2 /* BookingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +56,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA18353F2731CD5300698DA1 /* BookingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingManager.swift; sourceTree = "<group>"; };
+		CA1835412731E26A00698DA1 /* CarWashLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWashLocation.swift; sourceTree = "<group>"; };
+		CA19FD0F27318D2900BA5C6D /* WashListModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashListModalView.swift; sourceTree = "<group>"; };
+		CA19FD1227318E7100BA5C6D /* CarWash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWash.swift; sourceTree = "<group>"; };
+		CA19FD14273196FE00BA5C6D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		CA19FD1D27319B1800BA5C6D /* CarWashRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWashRowView.swift; sourceTree = "<group>"; };
+		CA19FD1F2731A1CE00BA5C6D /* CarWashDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWashDetail.swift; sourceTree = "<group>"; };
+		CA19FD212731A3E300BA5C6D /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		CA19FD232731A54000BA5C6D /* CarWashMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWashMapView.swift; sourceTree = "<group>"; };
+		CA3E91BF271C558F0003AD12 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		CA3E91C1271C55970003AD12 /* TimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerView.swift; sourceTree = "<group>"; };
+		CA3E91C3271C58160003AD12 /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		CA3E91C7271CB2E60003AD12 /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
+		CA3E91C9271CBB880003AD12 /* ContactModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModalView.swift; sourceTree = "<group>"; };
+		CA563C45271B742200633F55 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		CA99E2E8271A34AB00E2BB8D /* Washine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Washine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA99E2EB271A34AB00E2BB8D /* WashineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashineApp.swift; sourceTree = "<group>"; };
 		CA99E2ED271A34AB00E2BB8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +81,13 @@
 		CA99E302271A34AE00E2BB8D /* WashineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WashineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA99E306271A34AE00E2BB8D /* WashineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashineUITests.swift; sourceTree = "<group>"; };
 		CA99E308271A34AE00E2BB8D /* WashineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA99E315271AF65F00E2BB8D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		CAABC887272DA4DD00D8CE09 /* AuthenticatedEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedEnum.swift; sourceTree = "<group>"; };
+		CAABC889273181B700D8CE09 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		CAAFDF982731BCED00A031F8 /* carWashData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = carWashData.json; path = ../../../../../Desktop/carWashData.json; sourceTree = "<group>"; };
+		CAB07390271B609B0022EAF4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CAB07392271B68940022EAF4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CABCBA9F271B6C7500EF3BA2 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +115,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA19FD1127318D4900BA5C6D /* Modal Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA3E91C9271CBB880003AD12 /* ContactModalView.swift */,
+				CA19FD0F27318D2900BA5C6D /* WashListModalView.swift */,
+			);
+			path = "Modal Views";
+			sourceTree = "<group>";
+		};
+		CA19FD1A2731999200BA5C6D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CAAFDF982731BCED00A031F8 /* carWashData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CA19FD1B273199B400BA5C6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA19FD1227318E7100BA5C6D /* CarWash.swift */,
+				CA19FD14273196FE00BA5C6D /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA19FD1C27319AD800BA5C6D /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				CAABC887272DA4DD00D8CE09 /* AuthenticatedEnum.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CA563C44271B6E2B00633F55 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA99E2ED271A34AB00E2BB8D /* ContentView.swift */,
+				CAB07390271B609B0022EAF4 /* LoginView.swift */,
+				CAB07392271B68940022EAF4 /* MainView.swift */,
+				CABCBA9F271B6C7500EF3BA2 /* BookingView.swift */,
+				CA563C45271B742200633F55 /* MapView.swift */,
+				CA3E91BF271C558F0003AD12 /* DatePickerView.swift */,
+				CA3E91C1271C55970003AD12 /* TimePickerView.swift */,
+				CA3E91C3271C58160003AD12 /* DateView.swift */,
+				CA3E91C7271CB2E60003AD12 /* TimeView.swift */,
+				CA19FD1127318D4900BA5C6D /* Modal Views */,
+				CA19FD1D27319B1800BA5C6D /* CarWashRowView.swift */,
+				CA19FD1F2731A1CE00BA5C6D /* CarWashDetail.swift */,
+				CA19FD212731A3E300BA5C6D /* CircleImage.swift */,
+				CA19FD232731A54000BA5C6D /* CarWashMapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		CA99E2DF271A34AB00E2BB8D = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +194,16 @@
 			isa = PBXGroup;
 			children = (
 				CA99E2EB271A34AB00E2BB8D /* WashineApp.swift */,
-				CA99E2ED271A34AB00E2BB8D /* ContentView.swift */,
+				CA563C44271B6E2B00633F55 /* Views */,
 				CA99E2EF271A34AD00E2BB8D /* Assets.xcassets */,
 				CA99E2F1271A34AD00E2BB8D /* Preview Content */,
+				CA99E315271AF65F00E2BB8D /* Launch Screen.storyboard */,
+				CA19FD1C27319AD800BA5C6D /* Enums */,
+				CA19FD1B273199B400BA5C6D /* Model */,
+				CA19FD1A2731999200BA5C6D /* Resources */,
+				CA18353F2731CD5300698DA1 /* BookingManager.swift */,
+				CAABC889273181B700D8CE09 /* LocationManager.swift */,
+				CA1835412731E26A00698DA1 /* CarWashLocation.swift */,
 			);
 			path = Washine;
 			sourceTree = "<group>";
@@ -231,7 +337,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA99E316271AF65F00E2BB8D /* Launch Screen.storyboard in Resources */,
 				CA99E2F3271A34AD00E2BB8D /* Preview Assets.xcassets in Resources */,
+				CAAFDF992731BCED00A031F8 /* carWashData.json in Resources */,
 				CA99E2F0271A34AD00E2BB8D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +365,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAB07391271B609B0022EAF4 /* LoginView.swift in Sources */,
+				CA3E91CA271CBB880003AD12 /* ContactModalView.swift in Sources */,
+				CA563C46271B742200633F55 /* MapView.swift in Sources */,
+				CAB07393271B68940022EAF4 /* MainView.swift in Sources */,
 				CA99E2EE271A34AB00E2BB8D /* ContentView.swift in Sources */,
+				CA19FD15273196FE00BA5C6D /* ModelData.swift in Sources */,
+				CA19FD1327318E7100BA5C6D /* CarWash.swift in Sources */,
+				CA3E91C0271C558F0003AD12 /* DatePickerView.swift in Sources */,
+				CAABC888272DA4DD00D8CE09 /* AuthenticatedEnum.swift in Sources */,
 				CA99E2EC271A34AB00E2BB8D /* WashineApp.swift in Sources */,
+				CA3E91C4271C58160003AD12 /* DateView.swift in Sources */,
+				CA3E91C8271CB2E60003AD12 /* TimeView.swift in Sources */,
+				CABCBAA0271B6C7500EF3BA2 /* BookingView.swift in Sources */,
+				CA19FD242731A54000BA5C6D /* CarWashMapView.swift in Sources */,
+				CA1835402731CD5300698DA1 /* BookingManager.swift in Sources */,
+				CA3E91C2271C55970003AD12 /* TimePickerView.swift in Sources */,
+				CA19FD202731A1CE00BA5C6D /* CarWashDetail.swift in Sources */,
+				CA19FD222731A3E300BA5C6D /* CircleImage.swift in Sources */,
+				CAABC88A273181B800D8CE09 /* LocationManager.swift in Sources */,
+				CA19FD1027318D2900BA5C6D /* WashListModalView.swift in Sources */,
+				CA1835422731E26A00698DA1 /* CarWashLocation.swift in Sources */,
+				CA19FD1E27319B1800BA5C6D /* CarWashRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,9 +550,11 @@
 				DEVELOPMENT_TEAM = 9258H7N9X2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow access to your location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -433,8 +563,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.imranhajiyev.Washine;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranhajiyev.car2wash;
+				PRODUCT_NAME = Washine;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,9 +582,11 @@
 				DEVELOPMENT_TEAM = 9258H7N9X2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow access to your location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -463,8 +595,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.imranhajiyev.Washine;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.imranhajiyev.car2wash;
+				PRODUCT_NAME = Washine;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
