@@ -25,6 +25,6 @@ their business, as all car washes are visible on map, adding healthier competiti
 Implemented using native iOS development. SwiftUI was used as a design framework.
 
 ## Contact
-Reach me here or submit offical form at https://gridrun.live/contact-us
+You can reach out to me from GitHub, LinkedIn or Threads!
 
 # Imran Hajiyev ©
